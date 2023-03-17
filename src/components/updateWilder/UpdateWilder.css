@@ -1,0 +1,37 @@
+.form-update {
+  position: initial;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form label {
+  margin-bottom: 5px;
+  color: #f76c6c;
+}
+
+form .input-update {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.form-update .button-update {
+  background-color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #c9c9c9;
+  color: #f76c6c;
+  outline: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,39 @@
+.form-add {
+  position: relative;
+  width: 22%;
+  margin-bottom: 30px;
+}
+
+form label {
+  margin-bottom: 5px;
+  color: #f76c6c;
+}
+
+form .input-add {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+form .button-add {
+  background-color: #fff;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border: 1px solid #c9c9c9;
+  color: #f76c6c;
+  outline: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  margin-left: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+form .form-group {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
